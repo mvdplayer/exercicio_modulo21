@@ -1,0 +1,41 @@
+.formulario {
+    text-align: center;
+    margin-top: 30%;
+    &__links {
+        display: flex;
+    }
+
+    &__links {
+        padding-bottom: 10px;
+        font-size: 26px;
+        display: block;
+        &__item {
+            max-width: 100%;
+            width: 30%;
+            height: 40px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 2px solid rgb(216, 216, 27);
+        }
+    }
+
+    h3 {
+        font-size: 50px;
+        margin-bottom: 200px;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+    }
+
+    .button {
+        display: block;
+        margin-left: 45%;
+        margin-top: 10px;
+        padding: 20px 80px;
+        border-radius: 8px;
+        background-color: rgb(216, 216, 27);
+        border: none;
+        cursor: pointer;
+    }
+
+}
+

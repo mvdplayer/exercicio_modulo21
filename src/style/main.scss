@@ -1,0 +1,42 @@
+@use 'banner';
+@use 'description';
+@use 'formulario';
+@use 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #f2f2f2;
+    padding: 5px;
+    &__links {
+        text-align: right;
+        &__item {
+            display: inline;
+            padding: 0 10px;
+            margin-right: 20px;
+            font-size: 35px;
+            position: relative;
+            bottom: 45px;
+        }
+    }
+
+    .decoration {
+        text-decoration: none;
+        color: #808080;
+        font-weight: bold;
+        margin-right: 40px;
+    }
+
+    .logo {
+        max-width: 100%;
+        width: 130px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+}
+
